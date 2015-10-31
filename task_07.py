@@ -32,6 +32,7 @@ DATA = {
     8: 4337229
 }
 
+
 def iter_dict_funky_sum(mydict):
     """This function sums a dictionary of integer keys and values.
 
@@ -41,9 +42,9 @@ def iter_dict_funky_sum(mydict):
     Returns:
         Integer: A running total of value minus key for every key in
         dictionary.
-        
+
     Examples:
-    >>> MYDATA = {1 : 5, 2 : 6, 3 : 7}  
+    >>> MYDATA = {1 : 5, 2 : 6, 3 : 7}
     >>> iter_dict_funky_sum(MYDATA)
     12
     """
